@@ -1,0 +1,23 @@
+PATH
+  remote: .
+  specs:
+    http-retry-after (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.25.5)
+    rake (13.3.0)
+
+PLATFORMS
+  arm64-darwin-25
+  ruby
+
+DEPENDENCIES
+  bundler (>= 2.0)
+  http-retry-after!
+  minitest (~> 5.0)
+  rake
+
+BUNDLED WITH
+   2.6.9

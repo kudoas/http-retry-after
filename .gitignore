@@ -1,0 +1,12 @@
+/.bundle/
+/.yardoc
+/_yardoc
+/coverage/
+/doc/
+/pkg/
+/tmp/
+*.gem
+*.rbc
+.byebug_history
+*.swp
+.DS_Store
