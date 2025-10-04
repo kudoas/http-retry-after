@@ -1,0 +1,35 @@
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+
+# rspec failure tracking
+.rspec_status
+
+# Vendor directory for bundled gems
+/vendor/bundle
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files  
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Gem build files
+*.gem
