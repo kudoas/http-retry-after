@@ -1,5 +1,7 @@
 # http-retry-after
 
+[![Gem Version](https://badge.fury.io/rb/http-retry-after.svg?icon=si%3Arubygems)](https://badge.fury.io/rb/http-retry-after)
+
 `http-retry-after` is a Ruby gem for parsing HTTP `Retry-After` header values and converting them into Ruby `Time` instances, so clients can respect server retry policies defined in RFC 9110 without reimplementing parsing logic.
 
 ## What is Retry-After?
@@ -11,7 +13,7 @@ The HTTP `Retry-After` response header, defined in [RFC 9110, Section 10.2.2](ht
 Require the gem and call `HTTP::RetryAfter.parse` with either a delta-seconds value or an HTTP-date string:
 
 ```ruby
-require "http-retry-after"
+require "http/retry-after"
 
 # Delta-seconds value (interpreted as seconds from now)
 HTTP::RetryAfter.parse("120")
@@ -53,7 +55,7 @@ Both helpers return a `Time` object. `parse_seconds` uses `Time.now + seconds`, 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "http-retry-after", github: "kudoas/http-retry-after"
+gem "http-retry-after"
 ```
 
 And then execute:

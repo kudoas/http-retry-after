@@ -6,9 +6,9 @@ Gem::Specification.new do |spec|
   spec.name          = "http-retry-after"
   spec.version       = HTTP::RetryAfter::VERSION
   spec.authors       = ["Daichi KUDO"]
-  spec.summary       = "A Ruby library for handling HTTP Retry-After headers."
+  spec.summary       = "A Ruby gem for handling HTTP Retry-After headers."
   spec.description   = <<~DESC
-    HTTP::RetryAfter is a Ruby library that provides functionality to parse and handle HTTP Retry-After headers, which indicate how long a client should wait before making a follow-up request.
+    HTTP::RetryAfter is a Ruby gem that provides functionality to parse and handle HTTP Retry-After headers, which indicate how long a client should wait before making a follow-up request.
   DESC
   spec.homepage      = "https://github.com/kudoas/http-retry-after"
   spec.license       = "MIT"
