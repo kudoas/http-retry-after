@@ -17,17 +17,20 @@ module HTTP
     def self.parse_seconds(retry_after)
       seconds = begin
         Integer(retry_after)
-      rescue
+      rescue TypeError, ArgumentError
         raise InvalidFormatError, "Invalid Retry-After value: #{retry_after.inspect}"
       end
 
       raise NegativeRetryAfterError, "Negative Retry-After value: #{seconds}" if seconds.negative?
+
       Time.now + seconds
     end
 
     def self.parse_http_date(retry_after)
+      raise InvalidFormatError, "Invalid Retry-After value: #{retry_after.inspect}" if retry_after.nil?
+
       Time.httpdate(retry_after)
-    rescue
+    rescue ArgumentError, NoMethodError, TypeError
       raise InvalidFormatError, "Invalid Retry-After value: #{retry_after.inspect}"
     end
   end
