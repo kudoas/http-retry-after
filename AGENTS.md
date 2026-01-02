@@ -29,7 +29,7 @@
 ## Commit and Pull Request
 
 - Commit style mirrors current history: Conventional Commits-like prefixes (`feat|fix|chore|docs: ...`) with issue numbers `(#123)` when relevant.
-- PRs: include summary, motivation, key changes, and test results as bullets. Update `CHANGELOG.md` for user-visible changes.
+- PRs: include summary, motivation, key changes, and test results as bullets. `CHANGELOG.md` is auto-updated; do not edit it manually.
 - Keep one concern per PR, ensure Rake tests pass, and attach repro steps or screenshots only when helpful.
 
 ## Security and Maintenance

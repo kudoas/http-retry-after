@@ -4,16 +4,11 @@ All notable changes to this project will be documented in this file.
 
 ## [0.1.1](https://github.com/kudoas/http-retry-after/compare/v0.1.0...v0.1.1) (2026-01-02)
 
-
 ### Bug Fixes
 
-* improve error handling in parse_seconds and parse_http_date methods ([#4](https://github.com/kudoas/http-retry-after/issues/4)) ([558c11b](https://github.com/kudoas/http-retry-after/commit/558c11b81f04bb9184bd1678b4c20d819c05d6e7))
+- improve error handling in parse_seconds and parse_http_date methods ([#4](https://github.com/kudoas/http-retry-after/issues/4)) ([558c11b](https://github.com/kudoas/http-retry-after/commit/558c11b81f04bb9184bd1678b4c20d819c05d6e7))
 
-## [Unreleased]
-
-- No changes yet.
-
-## [0.1.0]
+## 0.1.0
 
 ### Added
 
