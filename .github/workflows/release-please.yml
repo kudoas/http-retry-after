@@ -32,4 +32,4 @@ jobs:
       - run: gem build http-retry-after.gemspec
       - run: gem push pkg/http-retry-after-*.gem
         env:
-          RUBYGEMS_API_KEY: ${{ secrets.RUBYGEMS_API_KEY }}
+          GEM_HOST_API_KEY: ${{ secrets.GEM_HOST_API_KEY }}
