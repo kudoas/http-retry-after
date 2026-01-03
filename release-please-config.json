@@ -1,0 +1,9 @@
+{
+  "packages": {
+    ".": {
+      "release-type": "ruby",
+      "version-file": "lib/http/retry_after/version.rb",
+      "changelog-path": "CHANGELOG.md"
+    }
+  }
+}
