@@ -1,0 +1,10 @@
+{
+  "packages": {
+    ".": {
+      "release-type": "ruby",
+      "package-name": "http-retry-after",
+      "version-file": "lib/http/retry_after/version.rb",
+      "changelog-path": "CHANGELOG.md"
+    }
+  }
+}
