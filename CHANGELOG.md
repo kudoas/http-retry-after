@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.3.0](https://github.com/kudoas/http-retry-after/compare/v0.2.0...v0.3.0) (2026-01-03)
+
+
+### Features
+
+* update http-retry-after version to 0.2.0 and bundler to 4.0.3 in Gemfile.lock ([#21](https://github.com/kudoas/http-retry-after/issues/21)) ([7898eb8](https://github.com/kudoas/http-retry-after/commit/7898eb84794bb2000a3e35e2e9c92db4f3fae74a))
+* update Ruby version to v4.0 ([fcd35b8](https://github.com/kudoas/http-retry-after/commit/fcd35b8c37568dcc1c295dbbd7b07ff4509721e5))
+
 ## [0.2.0](https://github.com/kudoas/http-retry-after/compare/v0.1.1...v0.2.0) (2026-01-03)
 
 
