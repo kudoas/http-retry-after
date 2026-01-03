@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.2.0](https://github.com/kudoas/http-retry-after/compare/v0.1.1...v0.2.0) (2026-01-03)
+
+
+### Features
+
+* update CI Ruby version matrix and modify CHANGELOG formatting ([#15](https://github.com/kudoas/http-retry-after/issues/15)) ([3b3b05c](https://github.com/kudoas/http-retry-after/commit/3b3b05c36e0e1073171bd40dde2d7a730f32d790))
+* update required Ruby version to 3.1 in gemspec ([#17](https://github.com/kudoas/http-retry-after/issues/17)) ([f85b32c](https://github.com/kudoas/http-retry-after/commit/f85b32ce7f9192e736362db2cc66f30f636d3736))
+
 ## [0.1.1](https://github.com/kudoas/http-retry-after/compare/v0.1.0...v0.1.1) (2026-01-02)
 
 ### Bug Fixes
