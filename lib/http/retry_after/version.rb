@@ -2,6 +2,6 @@
 
 module HTTP
   module RetryAfter
-    VERSION = "0.1.1"
+    VERSION = "0.2.0"
   end
 end
